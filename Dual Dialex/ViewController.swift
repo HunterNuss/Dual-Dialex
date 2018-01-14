@@ -12,14 +12,17 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        navigationController?.navigationBar.barTintColor = UIColor.black
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    
+    @IBAction func websiteButton(_ sender: UIButton) {
+        if let url = URL(string: "https://soundcloud.com/dualdialex") {
+            UIApplication.shared.open(url, options: [:])
+        }
     }
-
-
+    
 }
 

@@ -10,10 +10,21 @@
 		E960A0D0200ACF9500983ED1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E960A0CF200ACF9500983ED1 /* AppDelegate.swift */; };
 		E960A0D2200ACF9500983ED1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E960A0D1200ACF9500983ED1 /* ViewController.swift */; };
 		E960A0D5200ACF9500983ED1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E960A0D3200ACF9500983ED1 /* Main.storyboard */; };
-		E960A0D7200ACF9500983ED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E960A0D6200ACF9500983ED1 /* Assets.xcassets */; };
 		E960A0DA200ACF9500983ED1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E960A0D8200ACF9500983ED1 /* LaunchScreen.storyboard */; };
 		E960A0E5200ACF9600983ED1 /* Dual_DialexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E960A0E4200ACF9600983ED1 /* Dual_DialexTests.swift */; };
 		E960A0F0200ACF9600983ED1 /* Dual_DialexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E960A0EF200ACF9600983ED1 /* Dual_DialexUITests.swift */; };
+		E960A0FE200ADD0800983ED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E960A0FD200ADD0800983ED1 /* Assets.xcassets */; };
+		E960A102200AEBF900983ED1 /* Albums.swift in Sources */ = {isa = PBXBuildFile; fileRef = E960A101200AEBF800983ED1 /* Albums.swift */; };
+		E960A10F200AF84E00983ED1 /* Don't Believe the Hype.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E960A105200AF84C00983ED1 /* Don't Believe the Hype.mp3 */; };
+		E960A110200AF84E00983ED1 /* Did I Win?.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E960A106200AF84C00983ED1 /* Did I Win?.mp3 */; };
+		E960A111200AF84E00983ED1 /* Check Me Out (Feat. Jack Feder).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E960A107200AF84C00983ED1 /* Check Me Out (Feat. Jack Feder).mp3 */; };
+		E960A112200AF84E00983ED1 /* Close to you (Feat. Jack Feder).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E960A108200AF84D00983ED1 /* Close to you (Feat. Jack Feder).mp3 */; };
+		E960A113200AF84E00983ED1 /* Limelight (Feat. Lil Xay).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E960A109200AF84D00983ED1 /* Limelight (Feat. Lil Xay).mp3 */; };
+		E960A114200AF84E00983ED1 /* Sketches.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E960A10A200AF84D00983ED1 /* Sketches.mp3 */; };
+		E960A115200AF84E00983ED1 /* Still.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E960A10B200AF84D00983ED1 /* Still.mp3 */; };
+		E960A116200AF84E00983ED1 /* The Jam.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E960A10C200AF84D00983ED1 /* The Jam.mp3 */; };
+		E960A117200AF84E00983ED1 /* Limitless.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E960A10D200AF84D00983ED1 /* Limitless.mp3 */; };
+		E960A118200AF84E00983ED1 /* Headspace.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E960A10E200AF84D00983ED1 /* Headspace.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +49,6 @@
 		E960A0CF200ACF9500983ED1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E960A0D1200ACF9500983ED1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E960A0D4200ACF9500983ED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E960A0D6200ACF9500983ED1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E960A0D9200ACF9500983ED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E960A0DB200ACF9500983ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E960A0E0200ACF9500983ED1 /* Dual DialexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dual DialexTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +57,18 @@
 		E960A0EB200ACF9600983ED1 /* Dual DialexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dual DialexUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E960A0EF200ACF9600983ED1 /* Dual_DialexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dual_DialexUITests.swift; sourceTree = "<group>"; };
 		E960A0F1200ACF9600983ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E960A0FD200ADD0800983ED1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E960A101200AEBF800983ED1 /* Albums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Albums.swift; path = ../Albums.swift; sourceTree = "<group>"; };
+		E960A105200AF84C00983ED1 /* Don't Believe the Hype.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Don't Believe the Hype.mp3"; path = "Dual Dialex/The Intrinsic Head Nod/Don't Believe the Hype.mp3"; sourceTree = SOURCE_ROOT; };
+		E960A106200AF84C00983ED1 /* Did I Win?.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Did I Win?.mp3"; path = "Dual Dialex/The Intrinsic Head Nod/Did I Win?.mp3"; sourceTree = SOURCE_ROOT; };
+		E960A107200AF84C00983ED1 /* Check Me Out (Feat. Jack Feder).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Check Me Out (Feat. Jack Feder).mp3"; path = "Dual Dialex/The Intrinsic Head Nod/Check Me Out (Feat. Jack Feder).mp3"; sourceTree = SOURCE_ROOT; };
+		E960A108200AF84D00983ED1 /* Close to you (Feat. Jack Feder).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Close to you (Feat. Jack Feder).mp3"; path = "Dual Dialex/The Intrinsic Head Nod/Close to you (Feat. Jack Feder).mp3"; sourceTree = SOURCE_ROOT; };
+		E960A109200AF84D00983ED1 /* Limelight (Feat. Lil Xay).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Limelight (Feat. Lil Xay).mp3"; path = "Dual Dialex/The Intrinsic Head Nod/Limelight (Feat. Lil Xay).mp3"; sourceTree = SOURCE_ROOT; };
+		E960A10A200AF84D00983ED1 /* Sketches.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Sketches.mp3; path = "Dual Dialex/The Intrinsic Head Nod/Sketches.mp3"; sourceTree = SOURCE_ROOT; };
+		E960A10B200AF84D00983ED1 /* Still.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Still.mp3; path = "Dual Dialex/The Intrinsic Head Nod/Still.mp3"; sourceTree = SOURCE_ROOT; };
+		E960A10C200AF84D00983ED1 /* The Jam.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "The Jam.mp3"; path = "Dual Dialex/The Intrinsic Head Nod/The Jam.mp3"; sourceTree = SOURCE_ROOT; };
+		E960A10D200AF84D00983ED1 /* Limitless.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Limitless.mp3; path = "Dual Dialex/The Intrinsic Head Nod/Limitless.mp3"; sourceTree = SOURCE_ROOT; };
+		E960A10E200AF84D00983ED1 /* Headspace.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Headspace.mp3; path = "Dual Dialex/The Intrinsic Head Nod/Headspace.mp3"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +119,14 @@
 		E960A0CE200ACF9500983ED1 /* Dual Dialex */ = {
 			isa = PBXGroup;
 			children = (
+				E960A11A200AF8A700983ED1 /* The Intrinsic Head Nod */,
 				E960A0CF200ACF9500983ED1 /* AppDelegate.swift */,
 				E960A0D1200ACF9500983ED1 /* ViewController.swift */,
+				E960A101200AEBF800983ED1 /* Albums.swift */,
 				E960A0D3200ACF9500983ED1 /* Main.storyboard */,
-				E960A0D6200ACF9500983ED1 /* Assets.xcassets */,
 				E960A0D8200ACF9500983ED1 /* LaunchScreen.storyboard */,
 				E960A0DB200ACF9500983ED1 /* Info.plist */,
+				E960A0FD200ADD0800983ED1 /* Assets.xcassets */,
 			);
 			path = "Dual Dialex";
 			sourceTree = "<group>";
@@ -123,6 +147,23 @@
 				E960A0F1200ACF9600983ED1 /* Info.plist */,
 			);
 			path = "Dual DialexUITests";
+			sourceTree = "<group>";
+		};
+		E960A11A200AF8A700983ED1 /* The Intrinsic Head Nod */ = {
+			isa = PBXGroup;
+			children = (
+				E960A10C200AF84D00983ED1 /* The Jam.mp3 */,
+				E960A10B200AF84D00983ED1 /* Still.mp3 */,
+				E960A106200AF84C00983ED1 /* Did I Win?.mp3 */,
+				E960A105200AF84C00983ED1 /* Don't Believe the Hype.mp3 */,
+				E960A10E200AF84D00983ED1 /* Headspace.mp3 */,
+				E960A109200AF84D00983ED1 /* Limelight (Feat. Lil Xay).mp3 */,
+				E960A10D200AF84D00983ED1 /* Limitless.mp3 */,
+				E960A107200AF84C00983ED1 /* Check Me Out (Feat. Jack Feder).mp3 */,
+				E960A108200AF84D00983ED1 /* Close to you (Feat. Jack Feder).mp3 */,
+				E960A10A200AF84D00983ED1 /* Sketches.mp3 */,
+			);
+			path = "The Intrinsic Head Nod";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +274,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				E960A0DA200ACF9500983ED1 /* LaunchScreen.storyboard in Resources */,
-				E960A0D7200ACF9500983ED1 /* Assets.xcassets in Resources */,
+				E960A118200AF84E00983ED1 /* Headspace.mp3 in Resources */,
+				E960A111200AF84E00983ED1 /* Check Me Out (Feat. Jack Feder).mp3 in Resources */,
+				E960A112200AF84E00983ED1 /* Close to you (Feat. Jack Feder).mp3 in Resources */,
+				E960A0FE200ADD0800983ED1 /* Assets.xcassets in Resources */,
+				E960A116200AF84E00983ED1 /* The Jam.mp3 in Resources */,
+				E960A113200AF84E00983ED1 /* Limelight (Feat. Lil Xay).mp3 in Resources */,
+				E960A115200AF84E00983ED1 /* Still.mp3 in Resources */,
+				E960A110200AF84E00983ED1 /* Did I Win?.mp3 in Resources */,
 				E960A0D5200ACF9500983ED1 /* Main.storyboard in Resources */,
+				E960A117200AF84E00983ED1 /* Limitless.mp3 in Resources */,
+				E960A114200AF84E00983ED1 /* Sketches.mp3 in Resources */,
+				E960A10F200AF84E00983ED1 /* Don't Believe the Hype.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E960A102200AEBF900983ED1 /* Albums.swift in Sources */,
 				E960A0D2200ACF9500983ED1 /* ViewController.swift in Sources */,
 				E960A0D0200ACF9500983ED1 /* AppDelegate.swift in Sources */,
 			);
