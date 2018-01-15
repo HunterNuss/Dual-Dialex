@@ -25,6 +25,8 @@
 		E960A116200AF84E00983ED1 /* The Jam.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E960A10C200AF84D00983ED1 /* The Jam.mp3 */; };
 		E960A117200AF84E00983ED1 /* Limitless.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E960A10D200AF84D00983ED1 /* Limitless.mp3 */; };
 		E960A118200AF84E00983ED1 /* Headspace.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E960A10E200AF84D00983ED1 /* Headspace.mp3 */; };
+		E98913BB200C477E00C68F32 /* HeadNod.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98913BA200C477E00C68F32 /* HeadNod.swift */; };
+		E98913BD200C48A200C68F32 /* TheIntrinsicHeadNod.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98913BC200C48A200C68F32 /* TheIntrinsicHeadNod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		E960A10C200AF84D00983ED1 /* The Jam.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "The Jam.mp3"; path = "Dual Dialex/The Intrinsic Head Nod/The Jam.mp3"; sourceTree = SOURCE_ROOT; };
 		E960A10D200AF84D00983ED1 /* Limitless.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Limitless.mp3; path = "Dual Dialex/The Intrinsic Head Nod/Limitless.mp3"; sourceTree = SOURCE_ROOT; };
 		E960A10E200AF84D00983ED1 /* Headspace.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Headspace.mp3; path = "Dual Dialex/The Intrinsic Head Nod/Headspace.mp3"; sourceTree = SOURCE_ROOT; };
+		E98913BA200C477E00C68F32 /* HeadNod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadNod.swift; sourceTree = "<group>"; };
+		E98913BC200C48A200C68F32 /* TheIntrinsicHeadNod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheIntrinsicHeadNod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +127,9 @@
 				E960A0CF200ACF9500983ED1 /* AppDelegate.swift */,
 				E960A0D1200ACF9500983ED1 /* ViewController.swift */,
 				E960A101200AEBF800983ED1 /* Albums.swift */,
+				E98913BA200C477E00C68F32 /* HeadNod.swift */,
 				E960A0D3200ACF9500983ED1 /* Main.storyboard */,
+				E98913BC200C48A200C68F32 /* TheIntrinsicHeadNod.swift */,
 				E960A0D8200ACF9500983ED1 /* LaunchScreen.storyboard */,
 				E960A0DB200ACF9500983ED1 /* Info.plist */,
 				E960A0FD200ADD0800983ED1 /* Assets.xcassets */,
@@ -311,8 +317,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E960A102200AEBF900983ED1 /* Albums.swift in Sources */,
+				E98913BD200C48A200C68F32 /* TheIntrinsicHeadNod.swift in Sources */,
 				E960A0D2200ACF9500983ED1 /* ViewController.swift in Sources */,
 				E960A0D0200ACF9500983ED1 /* AppDelegate.swift in Sources */,
+				E98913BB200C477E00C68F32 /* HeadNod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
