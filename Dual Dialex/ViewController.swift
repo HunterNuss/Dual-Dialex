@@ -15,7 +15,6 @@ class ViewController: UIViewController {
         navigationController?.navigationBar.barTintColor = UIColor.black
         
     }
-
     
     
     @IBAction func websiteButton(_ sender: UIButton) {
