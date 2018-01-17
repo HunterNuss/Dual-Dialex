@@ -26,6 +26,8 @@
 		E960A117200AF84E00983ED1 /* Limitless.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E960A10D200AF84D00983ED1 /* Limitless.mp3 */; };
 		E960A118200AF84E00983ED1 /* Headspace.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E960A10E200AF84D00983ED1 /* Headspace.mp3 */; };
 		E98913BD200C48A200C68F32 /* TheIntrinsicHeadNod.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98913BC200C48A200C68F32 /* TheIntrinsicHeadNod.swift */; };
+		E9E52525200EE6530051495B /* AlbumsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E52524200EE6530051495B /* AlbumsCell.swift */; };
+		E9E5252A200EF25C0051495B /* IMG_1062.MOV in Resources */ = {isa = PBXBuildFile; fileRef = E9E52529200EF25C0051495B /* IMG_1062.MOV */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		E960A10D200AF84D00983ED1 /* Limitless.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Limitless.mp3; path = "Dual Dialex/The Intrinsic Head Nod/Limitless.mp3"; sourceTree = SOURCE_ROOT; };
 		E960A10E200AF84D00983ED1 /* Headspace.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Headspace.mp3; path = "Dual Dialex/The Intrinsic Head Nod/Headspace.mp3"; sourceTree = SOURCE_ROOT; };
 		E98913BC200C48A200C68F32 /* TheIntrinsicHeadNod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheIntrinsicHeadNod.swift; sourceTree = "<group>"; };
+		E9E52524200EE6530051495B /* AlbumsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsCell.swift; sourceTree = "<group>"; };
+		E9E52529200EF25C0051495B /* IMG_1062.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = IMG_1062.MOV; path = ../../../../../../Desktop/IMG_1062.MOV; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,10 +125,12 @@
 		E960A0CE200ACF9500983ED1 /* Dual Dialex */ = {
 			isa = PBXGroup;
 			children = (
+				E9E52526200EEEE40051495B /* Live */,
 				E960A11A200AF8A700983ED1 /* The Intrinsic Head Nod */,
 				E960A0CF200ACF9500983ED1 /* AppDelegate.swift */,
 				E960A0D1200ACF9500983ED1 /* ViewController.swift */,
 				E960A101200AEBF800983ED1 /* Albums.swift */,
+				E9E52524200EE6530051495B /* AlbumsCell.swift */,
 				E98913BC200C48A200C68F32 /* TheIntrinsicHeadNod.swift */,
 				E960A0D3200ACF9500983ED1 /* Main.storyboard */,
 				E960A0D8200ACF9500983ED1 /* LaunchScreen.storyboard */,
@@ -167,6 +173,14 @@
 				E960A10A200AF84D00983ED1 /* Sketches.mp3 */,
 			);
 			path = "The Intrinsic Head Nod";
+			sourceTree = "<group>";
+		};
+		E9E52526200EEEE40051495B /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				E9E52529200EF25C0051495B /* IMG_1062.MOV */,
+			);
+			path = Live;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E960A0DA200ACF9500983ED1 /* LaunchScreen.storyboard in Resources */,
+				E9E5252A200EF25C0051495B /* IMG_1062.MOV in Resources */,
 				E960A118200AF84E00983ED1 /* Headspace.mp3 in Resources */,
 				E960A111200AF84E00983ED1 /* Check Me Out (Feat. Jack Feder).mp3 in Resources */,
 				E960A112200AF84E00983ED1 /* Close to you (Feat. Jack Feder).mp3 in Resources */,
@@ -313,6 +328,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9E52525200EE6530051495B /* AlbumsCell.swift in Sources */,
 				E960A102200AEBF900983ED1 /* Albums.swift in Sources */,
 				E98913BD200C48A200C68F32 /* TheIntrinsicHeadNod.swift in Sources */,
 				E960A0D2200ACF9500983ED1 /* ViewController.swift in Sources */,

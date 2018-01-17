@@ -25,7 +25,8 @@ class TheIntrinsicHeadNod: UIViewController {
     
     var music: AVAudioPlayer!
     var path = Bundle.main.path(forResource: "", ofType:nil)
-    
+    var activity = ""
+
     override func viewDidLoad() {
         super.viewDidLoad()
     }

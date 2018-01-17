@@ -2,23 +2,26 @@
 //  AlbumsCell.swift
 //  Dual Dialex
 //
-//  Created by Hunter Nuss on 1/13/18.
+//  Created by Hunter Nuss on 1/16/18.
 //  Copyright © 2018 Hunter Nuss. All rights reserved.
 //
 
 import UIKit
 
-class AlbumsCell: UITableViewCell {
-
-    @IBOutlet weak var albumImage: UIImageView!
+class AlbumsCell: UICollectionViewCell {
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
+    @IBOutlet weak var albumImage: UIImageView!
+    @IBOutlet weak var albumLabel: UILabel!
+    
+    
+    func display(image: UIImage, title: String)
+    {
+        albumImage.image = image
+        albumLabel.text = title
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-    }
-
+    
+   
+    
+    
+    
 }
