@@ -29,6 +29,7 @@
 		E960A117200AF84E00983ED1 /* Limitless.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E960A10D200AF84D00983ED1 /* Limitless.mp3 */; };
 		E960A118200AF84E00983ED1 /* Headspace.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E960A10E200AF84D00983ED1 /* Headspace.mp3 */; };
 		E98913BD200C48A200C68F32 /* TheIntrinsicHeadNod.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98913BC200C48A200C68F32 /* TheIntrinsicHeadNod.swift */; };
+		E9A3762A20118486004440B9 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A3762920118486004440B9 /* Album.swift */; };
 		E9E52525200EE6530051495B /* AlbumsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E52524200EE6530051495B /* AlbumsCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +79,7 @@
 		E960A10D200AF84D00983ED1 /* Limitless.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Limitless.mp3; path = "Dual Dialex/The Intrinsic Head Nod/Limitless.mp3"; sourceTree = SOURCE_ROOT; };
 		E960A10E200AF84D00983ED1 /* Headspace.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Headspace.mp3; path = "Dual Dialex/The Intrinsic Head Nod/Headspace.mp3"; sourceTree = SOURCE_ROOT; };
 		E98913BC200C48A200C68F32 /* TheIntrinsicHeadNod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheIntrinsicHeadNod.swift; sourceTree = "<group>"; };
+		E9A3762920118486004440B9 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 		E9E52524200EE6530051495B /* AlbumsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,16 +131,16 @@
 		E960A0CE200ACF9500983ED1 /* Dual Dialex */ = {
 			isa = PBXGroup;
 			children = (
+				E960A0CF200ACF9500983ED1 /* AppDelegate.swift */,
+				E960A0D1200ACF9500983ED1 /* ViewController.swift */,
 				E9C263F92010312E0065076E /* Albums */,
 				E9C263F8201031050065076E /* AlbumCollection */,
 				E9E52526200EEEE40051495B /* Live */,
 				E960A11A200AF8A700983ED1 /* The Intrinsic Head Nod */,
-				E960A0CF200ACF9500983ED1 /* AppDelegate.swift */,
-				E960A0D1200ACF9500983ED1 /* ViewController.swift */,
 				E960A0D3200ACF9500983ED1 /* Main.storyboard */,
-				E960A0D8200ACF9500983ED1 /* LaunchScreen.storyboard */,
 				E960A0DB200ACF9500983ED1 /* Info.plist */,
 				E960A0FD200ADD0800983ED1 /* Assets.xcassets */,
+				E960A0D8200ACF9500983ED1 /* LaunchScreen.storyboard */,
 			);
 			path = "Dual Dialex";
 			sourceTree = "<group>";
@@ -183,6 +185,7 @@
 			children = (
 				E960A101200AEBF800983ED1 /* Albums.swift */,
 				E9E52524200EE6530051495B /* AlbumsCell.swift */,
+				E9A3762920118486004440B9 /* Album.swift */,
 			);
 			path = AlbumCollection;
 			sourceTree = "<group>";
@@ -199,8 +202,8 @@
 			isa = PBXGroup;
 			children = (
 				2E96A4A6200FA50700878D66 /* LivePerformances.swift */,
-				2E286AB22010EC0F00261176 /* Performance.swift */,
 				2E96A4A8200FAC3A00878D66 /* LiveCell.swift */,
+				2E286AB22010EC0F00261176 /* Performance.swift */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -354,6 +357,7 @@
 				E960A102200AEBF900983ED1 /* Albums.swift in Sources */,
 				E98913BD200C48A200C68F32 /* TheIntrinsicHeadNod.swift in Sources */,
 				2E96A4A9200FAC3A00878D66 /* LiveCell.swift in Sources */,
+				E9A3762A20118486004440B9 /* Album.swift in Sources */,
 				E960A0D2200ACF9500983ED1 /* ViewController.swift in Sources */,
 				2E286AB32010EC0F00261176 /* Performance.swift in Sources */,
 				E960A0D0200ACF9500983ED1 /* AppDelegate.swift in Sources */,

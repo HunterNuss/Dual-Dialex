@@ -14,13 +14,7 @@ class AlbumsCell: UICollectionViewCell {
     @IBOutlet weak var albumLabel: UILabel!
     
     
-    func display(image: UIImage, title: String)
-    {
-        albumImage.image = image
-        albumLabel.text = title
-    }
     
-   
     
     
     

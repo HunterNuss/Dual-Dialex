@@ -1,17 +1,18 @@
 //
-//  Performance.swift
+//  Album.swift
 //  Dual Dialex
 //
-//  Created by  on 1/18/18.
+//  Created by Hunter Nuss on 1/18/18.
 //  Copyright © 2018 Hunter Nuss. All rights reserved.
 //
 
 import Foundation
 import UIKit
 
-struct Performance {
+struct Album {
     var title: String = ""
     var image: UIImage? = nil
     
     
 }
+

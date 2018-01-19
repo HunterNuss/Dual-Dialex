@@ -17,18 +17,13 @@ class LivePerformances: UIViewController, UICollectionViewDelegate, UICollection
     let screenSize = UIScreen.main.bounds
     let reuseIdentifier = "cell"
     var performances = [Performance]()
-    
    
     
     override func viewDidLoad() {
-        
-        
-        let performance1 = Performance(title: "Test 1", image: #imageLiteral(resourceName: "Sound Wave 2"))
-        let performance2 = Performance(title: "Test 2", image: #imageLiteral(resourceName: "Audio Wave"))
-        let performance3 = Performance(title: "Test 3", image: #imageLiteral(resourceName: "Dual Dialex"))
+        let performance1 = Performance(title: "Sino Show & Lil Xay", image: #imageLiteral(resourceName: "Rap Battle"))
         performances.append(performance1)
-        performances.append(performance2)
-        performances.append(performance3)
+        
+        collectionView.backgroundColor = UIColor.clear
     }
    
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
