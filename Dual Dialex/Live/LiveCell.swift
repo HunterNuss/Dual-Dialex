@@ -16,25 +16,27 @@ class LiveCell: UICollectionViewCell {
     @IBOutlet weak var label: UILabel!
     
     var playerVC = AVPlayerViewController()
-    lazy var playButton: UIButton = {
-        let button = UIButton(type: UIButtonType.system)
-        button.translatesAutoresizingMaskIntoConstraints = false
-        button.tintColor = UIColor.white
-        button.setImage(#imageLiteral(resourceName: "Audio Wave"), for: .normal)
-        button.addTarget(self, action: #selector(playVideo), for: .touchUpInside)
-        return button
-    }()
+//    lazy var playButton: UIButton = {
+//        let button = UIButton(type: UIButtonType.system)
+//        button.translatesAutoresizingMaskIntoConstraints = false
+//        button.tintColor = UIColor.white
+//        button.setImage(#imageLiteral(resourceName: "Play"), for: .normal)
+//        button.addTarget(self, action: #selector(playVideo), for: .touchUpInside)
+//        return button
+//    }()
+//
+//
+//
+//
+//    func playButtonTap() {
+//        playButton.centerXAnchor.constraint(equalTo: imageView.centerXAnchor).isActive = true
+//        playButton.centerYAnchor.constraint(equalTo: imageView.centerYAnchor).isActive = true
+//        playButton.widthAnchor.constraint(equalToConstant: 50).isActive = true
+//        playButton.heightAnchor.constraint(equalToConstant: 50).isActive = true
+//        imageView.addSubview(playButton)
+//    }
     
-    func playButtonTap() {
-        imageView.addSubview(playButton)
-        playButton.centerXAnchor.constraint(equalTo: imageView.centerXAnchor).isActive = true
-        playButton.centerYAnchor.constraint(equalTo: imageView.centerYAnchor).isActive = true
-        playButton.widthAnchor.constraint(equalToConstant: 50).isActive = true
-        playButton.heightAnchor.constraint(equalToConstant: 50).isActive = true
-
-    }
-    
-    @objc func playVideo() {
+     func playVideo() {
         if let path = Bundle.main.path(forResource: "", ofType: nil) {
             let url = URL(fileURLWithPath: path)
             let avPlayer = AVPlayer(playerItem: AVPlayerItem(url: url))
@@ -62,10 +64,7 @@ class LiveCell: UICollectionViewCell {
 //            } else {
 //                playButton.isHidden = true
 //            }
-//
-//            // set date
-//            let date = Date(timeIntervalSince1970: (thought?.created)!)
-//
 
+    
 }
 

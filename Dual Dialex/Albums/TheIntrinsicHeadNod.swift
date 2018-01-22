@@ -43,6 +43,19 @@ class TheIntrinsicHeadNod: UIViewController {
         }
     }
     
+    func pauseSound()
+    {
+        let url = URL(fileURLWithPath: path!)
+        do {
+            let sound = try AVAudioPlayer(contentsOf: url)
+            music = sound
+            sound.pause()
+        } catch {
+            print("Error. Could not pause the sound file")
+        }
+    }
+    
+    
     func stopSound()
     {
         let url = URL(fileURLWithPath: path!)
@@ -51,12 +64,9 @@ class TheIntrinsicHeadNod: UIViewController {
             music = sound
             sound.stop()
         } catch {
-            print("Error. Could not load the sound file")
+            print("Error. Could not stop the sound file")
         }
     }
-    
-    
-    
     
     
     
@@ -65,11 +75,19 @@ class TheIntrinsicHeadNod: UIViewController {
             path = Bundle.main.path(forResource: "The Jam.mp3", ofType:nil)!
             playSound()
             theJam.image = #imageLiteral(resourceName: "Sound Wave 2")
-        } else {
-            stopSound()
-            theJam.image = #imageLiteral(resourceName: "Black")
         }
-    }
+        
+        var doubleTap = UITapGestureRecognizer(target: self, action: nil)
+        if doubleTap == UITapGestureRecognizer(target: self, action: nil) {
+            doubleTap.delegate = self as! UIGestureRecognizerDelegate
+            doubleTap.numberOfTapsRequired = 2
+            sender.addGestureRecognizer(doubleTap)
+            theJam.image = #imageLiteral(resourceName: "Sound Wave 2")
+            pauseSound()
+        }
+        
+        }
+    
     
     @IBAction func still(_ sender: UIButton) {
         if sender.isTouchInside == true {
@@ -77,7 +95,7 @@ class TheIntrinsicHeadNod: UIViewController {
             playSound()
             still.image = #imageLiteral(resourceName: "Sound Wave 2")
         } else {
-            stopSound()
+            pauseSound()
             still.image = #imageLiteral(resourceName: "Black")
         }
     }
@@ -88,7 +106,7 @@ class TheIntrinsicHeadNod: UIViewController {
             playSound()
             didIWin.image = #imageLiteral(resourceName: "Sound Wave 2")
         } else {
-            stopSound()
+            pauseSound()
             didIWin.image = #imageLiteral(resourceName: "Black")
         }
     }
@@ -99,7 +117,7 @@ class TheIntrinsicHeadNod: UIViewController {
             playSound()
             headspace.image = #imageLiteral(resourceName: "Sound Wave 2")
         } else {
-            stopSound()
+            pauseSound()
             headspace.image = #imageLiteral(resourceName: "Black")
         }
     }
@@ -110,7 +128,7 @@ class TheIntrinsicHeadNod: UIViewController {
             playSound()
             limelight.image = #imageLiteral(resourceName: "Sound Wave 2")
         } else {
-            stopSound()
+            pauseSound()
             limelight.image = #imageLiteral(resourceName: "Black")
         }
     }
@@ -121,7 +139,7 @@ class TheIntrinsicHeadNod: UIViewController {
             playSound()
             dontBelieveTheHype.image = #imageLiteral(resourceName: "Sound Wave 2")
         } else {
-            stopSound()
+            pauseSound()
             dontBelieveTheHype.image = #imageLiteral(resourceName: "Black")
         }
     }
@@ -132,7 +150,7 @@ class TheIntrinsicHeadNod: UIViewController {
             playSound()
             checkMeOut.image = #imageLiteral(resourceName: "Sound Wave 2")
         } else {
-            stopSound()
+            pauseSound()
             checkMeOut.image = #imageLiteral(resourceName: "Black")
         }
     }
@@ -143,7 +161,7 @@ class TheIntrinsicHeadNod: UIViewController {
             playSound()
             limitless.image = #imageLiteral(resourceName: "Sound Wave 2")
         } else {
-            stopSound()
+            pauseSound()
             limitless.image = #imageLiteral(resourceName: "Black")
         }
     }
@@ -154,7 +172,7 @@ class TheIntrinsicHeadNod: UIViewController {
             playSound()
             closeToYou.image = #imageLiteral(resourceName: "Sound Wave 2")
         } else {
-            stopSound()
+            pauseSound()
             closeToYou.image = #imageLiteral(resourceName: "Black")
         }
     }
@@ -165,7 +183,7 @@ class TheIntrinsicHeadNod: UIViewController {
             playSound()
             sketches.image = #imageLiteral(resourceName: "Sound Wave 2")
         } else {
-            stopSound()
+            pauseSound()
             sketches.image = #imageLiteral(resourceName: "Black")
         }
     }

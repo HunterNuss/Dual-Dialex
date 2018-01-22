@@ -55,9 +55,7 @@ class LivePerformances: UIViewController, UICollectionViewDelegate, UICollection
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! LiveCell
         
         let currentPerformance = performances[indexPath.row]
-        // this helps with image loading bugs when user scrolls fast
         cell.imageView.tag = indexPath.row
-        // created a didSet method on Memory CollectionViewCell that will set all the settings of the cell once the memory is set.
         cell.label.text = currentPerformance.title
         cell.imageView.image = currentPerformance.image
         
@@ -65,10 +63,14 @@ class LivePerformances: UIViewController, UICollectionViewDelegate, UICollection
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        // set globalselectedMemory to the selected Memory then pass the segue to the next vc
         if indexPath.section == 0 {
-            self.performSegue(withIdentifier: "memorySegue", sender: self)
+            
+            let cell = collectionView.cellForItem(at: indexPath) as! LiveCell
+            
+            let performance = performances[indexPath.row]
+            LiveCell.playVideo(performance.image)
         }
     }
+
     
 }

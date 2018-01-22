@@ -138,9 +138,9 @@
 				E9E52526200EEEE40051495B /* Live */,
 				E960A11A200AF8A700983ED1 /* The Intrinsic Head Nod */,
 				E960A0D3200ACF9500983ED1 /* Main.storyboard */,
-				E960A0DB200ACF9500983ED1 /* Info.plist */,
 				E960A0FD200ADD0800983ED1 /* Assets.xcassets */,
 				E960A0D8200ACF9500983ED1 /* LaunchScreen.storyboard */,
+				E960A0DB200ACF9500983ED1 /* Info.plist */,
 			);
 			path = "Dual Dialex";
 			sourceTree = "<group>";
