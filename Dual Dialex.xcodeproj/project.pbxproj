@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E103ABA201785CC001940DE /* Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E103AB9201785CC001940DE /* Help.swift */; };
 		2E286AB32010EC0F00261176 /* Performance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E286AB22010EC0F00261176 /* Performance.swift */; };
 		2E96A4A7200FA50700878D66 /* LivePerformances.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E96A4A6200FA50700878D66 /* LivePerformances.swift */; };
 		2E96A4A9200FAC3A00878D66 /* LiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E96A4A8200FAC3A00878D66 /* LiveCell.swift */; };
@@ -51,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E103AB9201785CC001940DE /* Help.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Help.swift; sourceTree = "<group>"; };
 		2E286AB22010EC0F00261176 /* Performance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Performance.swift; sourceTree = "<group>"; };
 		2E96A4A6200FA50700878D66 /* LivePerformances.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePerformances.swift; sourceTree = "<group>"; };
 		2E96A4A8200FAC3A00878D66 /* LiveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveCell.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				E9E52526200EEEE40051495B /* Live */,
 				E960A11A200AF8A700983ED1 /* The Intrinsic Head Nod */,
 				E960A0D3200ACF9500983ED1 /* Main.storyboard */,
+				2E103AB9201785CC001940DE /* Help.swift */,
 				E960A0FD200ADD0800983ED1 /* Assets.xcassets */,
 				E960A0D8200ACF9500983ED1 /* LaunchScreen.storyboard */,
 				E960A0DB200ACF9500983ED1 /* Info.plist */,
@@ -352,6 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E103ABA201785CC001940DE /* Help.swift in Sources */,
 				2E96A4A7200FA50700878D66 /* LivePerformances.swift in Sources */,
 				E9E52525200EE6530051495B /* AlbumsCell.swift in Sources */,
 				E960A102200AEBF900983ED1 /* Albums.swift in Sources */,

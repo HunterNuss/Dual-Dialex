@@ -29,6 +29,7 @@ class TheIntrinsicHeadNod: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        help()
     }
 
     func playSound()
@@ -77,16 +78,26 @@ class TheIntrinsicHeadNod: UIViewController {
             theJam.image = #imageLiteral(resourceName: "Sound Wave 2")
         }
         
-        var doubleTap = UITapGestureRecognizer(target: self, action: nil)
-        if doubleTap == UITapGestureRecognizer(target: self, action: nil) {
-            doubleTap.delegate = self as! UIGestureRecognizerDelegate
-            doubleTap.numberOfTapsRequired = 2
-            sender.addGestureRecognizer(doubleTap)
-            theJam.image = #imageLiteral(resourceName: "Sound Wave 2")
-            pauseSound()
-        }
         
+//        var doubleTap = UITapGestureRecognizer(target: self, action: #selector(doubleTapHappened))
+//        doubleTap.numberOfTapsRequired = 2
+//        doubleTap.delegate = self as! UIGestureRecognizerDelegate
+//
+//        sender.addGestureRecognizer(doubleTap)
+////        if doubleTap == UITapGestureRecognizer(target: self, action: nil) {
+////            doubleTap.delegate = self as! UIGestureRecognizerDelegate
+////            doubleTap.numberOfTapsRequired = 2
+////            sender.addGestureRecognizer(doubleTap)
+////
+////        }else {
+////            print("Doesn't Pause")
+////        }
+//
         }
+//    @objc func doubleTapHappened() {
+//        theJam.image = #imageLiteral(resourceName: "Black")
+//        pauseSound()
+//    }
     
     
     @IBAction func still(_ sender: UIButton) {
@@ -187,4 +198,16 @@ class TheIntrinsicHeadNod: UIViewController {
             sketches.image = #imageLiteral(resourceName: "Black")
         }
     }
+    
+    func help() {
+//        let leftBarButton = UIBarButtonItem(title: "Help", style: UIBarButtonItemStyle.done, target: self, action: #selector(TheIntrinsicHeadNod.myLeftSideBarButtonItemTapped(_:)))
+        let barButton = UIBarButtonItem(title: "Help", style: UIBarButtonItemStyle.done, target: self, action: #selector(TheIntrinsicHeadNod.myRightSideBarButtonItemTapped(_:)))
+        self.navigationItem.rightBarButtonItem = barButton
+    }
+    
+    @objc func myRightSideBarButtonItemTapped(_ sender: UIBarButtonItem!)
+    {
+        performSegue(withIdentifier: "help", sender: self)
+    }
+    
 }

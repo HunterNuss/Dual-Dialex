@@ -67,8 +67,18 @@ class LivePerformances: UIViewController, UICollectionViewDelegate, UICollection
             
             let cell = collectionView.cellForItem(at: indexPath) as! LiveCell
             
-            let performance = performances[indexPath.row]
-            LiveCell.playVideo(performance.image)
+            if let path = Bundle.main.path(forResource: "", ofType: nil) {
+                let url = URL(fileURLWithPath: path)
+                let avPlayer = AVPlayer(playerItem: AVPlayerItem(url: url))
+                let avPlayerLayer = AVPlayerLayer(player: avPlayer)
+//                avPlayerLayer.frame = imageView.bounds
+//                imageView.layer.insertSublayer(avPlayerLayer, at: 0)
+                avPlayer.play()
+            } else {
+                print("No")
+            }
+            
+            
         }
     }
 
